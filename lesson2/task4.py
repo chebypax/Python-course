@@ -1,5 +1,5 @@
 my_list = input('Введите слова, разделенные пробелами: ').split()
 
-for i, item in enumerate(my_list):
-    print(f'{i + 1} - {item[:10]}')
+for i, item in enumerate(my_list, 1):
+    print(f'{i} - {item[:10]}')
 
